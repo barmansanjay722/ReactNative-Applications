@@ -179,24 +179,45 @@
 
 /* CallBack Function */
 
-import React, { useState } from "react";
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from './component/Home';
-import MainScreen from './component/Main';
+// import React, { useState } from "react";
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createStackNavigator } from '@react-navigation/stack';
+// import HomeScreen from './component/Home';
+// import MainScreen from './component/Main';
 
-const Stack = createStackNavigator()
-const App = ({navigation}) =>{
+// const Stack = createStackNavigator()
+// const App = ({navigation}) =>{
+
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator initialRouteName="home">
+//         <Stack.Screen name="main" component={MainScreen}/>
+//         <Stack.Screen name="home" component={HomeScreen}/>
+//       </Stack.Navigator>
+//     </NavigationContainer>
+    
+//   )
+// }
+
+// export default App;
+
+
+
+
+
+
+
+import React from "react";
+import { View,Text } from "react-native";
+
+const App = ()=>{
 
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="home">
-        <Stack.Screen name="main" component={MainScreen}/>
-        <Stack.Screen name="home" component={HomeScreen}/>
-      </Stack.Navigator>
-    </NavigationContainer>
-    
+    <View>
+      <Text> Hi Sanjay</Text>
+    </View>
   )
 }
+
 
 export default App;
