@@ -445,7 +445,7 @@
 /* Lotitude and longitude */
 
 import React,{useState} from "react";
-import { View,Text,Button } from "react-native";
+import { View,Text } from "react-native";
 import Geolocation from "@react-native-community/geolocation";
 
 const App =()=>{
